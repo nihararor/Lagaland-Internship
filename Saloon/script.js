@@ -10,6 +10,6 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         return;
     }
 
-    let message = `Email: ${email}\nPassword: ${password}\nPhone: ${phone}\nOTP Requested: ${otpChecked ? 'Yes' : 'No'}`;
+    let message = `Email: ${email}\nPassword: ${password}\nPhone: ${phone}`;
     alert(message);
 });
